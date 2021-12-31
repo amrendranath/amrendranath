@@ -1,86 +1,37 @@
-import "./App.css";
+import { useEffect } from "react";
+import Typed from "typed.js";
 
 function App() {
+  useEffect(() => {
+    let typed = new Typed(".auto-input", {
+      strings: ["Amrendra Nath.", "Frontend Engineer."],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+    });
+    return () => typed.destroy();
+  }, []);
+
   return (
     <main>
-      <section class="advice">
-        <h1 class="advice__title">Site under maintenance</h1>
-        <p class="advice__description">
-          <span>&lt;</span> building <span>/&gt;</span> not finished yet
+      <div className="bg-gray-900 p-10 h-screen flex justify-center items-start flex-col">
+        <h1 className="text-5xl text-white">Hello 👋</h1>
+        <h1 className="text-5xl text-white pt-20">
+          I'm <span className="auto-input"></span>
+        </h1>
+        <p className="text-gray-400 mt-5 text-lg">
+          You can reach out to me if you need any help in making <br /> a
+          website for you or your business.
         </p>
-      </section>
-      <section class="city-stuff">
-        <ul class="skyscrappers__list">
-          <li class="skyscrapper__item skyscrapper-1"></li>
-          <li class="skyscrapper__item skyscrapper-2"></li>
-          <li class="skyscrapper__item skyscrapper-3"></li>
-          <li class="skyscrapper__item skyscrapper-4"></li>
-          <li class="skyscrapper__item skyscrapper-5"></li>
-        </ul>
-        <ul class="tree__container">
-          <li class="tree__list">
-            <ul class="tree__item tree-1">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-2">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-3">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-4">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-5">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-6">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-7">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-            <ul class="tree__item tree-8">
-              <li class="tree__trunk"></li>
-              <li class="tree__leaves"></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="crane__list crane-1">
-          <li class="crane__item crane-cable crane-cable-1"></li>
-          <li class="crane__item crane-cable crane-cable-2"></li>
-          <li class="crane__item crane-cable crane-cable-3"></li>
-          <li class="crane__item crane-stand"></li>
-          <li class="crane__item crane-weight"></li>
-          <li class="crane__item crane-cabin"></li>
-          <li class="crane__item crane-arm"></li>
-        </ul>
-        <ul class="crane__list crane-2">
-          <li class="crane__item crane-cable crane-cable-1"></li>
-          <li class="crane__item crane-cable crane-cable-2"></li>
-          <li class="crane__item crane-cable crane-cable-3"></li>
-          <li class="crane__item crane-stand"></li>
-          <li class="crane__item crane-weight"></li>
-          <li class="crane__item crane-cabin"></li>
-          <li class="crane__item crane-arm"></li>
-        </ul>
-        <ul class="crane__list crane-3">
-          <li class="crane__item crane-cable crane-cable-1"></li>
-          <li class="crane__item crane-cable crane-cable-2"></li>
-          <li class="crane__item crane-cable crane-cable-3"></li>
-          <li class="crane__item crane-stand"></li>
-          <li class="crane__item crane-weight"></li>
-          <li class="crane__item crane-cabin"></li>
-          <li class="crane__item crane-arm"></li>
-        </ul>
-      </section>
+        <p className="font-bold text-white py-5">Have a nice day ahead 😊</p>
+        <a
+          class="p-4 bg-green-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600"
+          href="https://drive.google.com/uc?id=1BSOICLWTYtftJ4f4P8kCIwXqdSoLYxqJ&export=download"
+          download
+        >
+          <i className="lni lni-cloud-download" /> Download CV
+        </a>
+      </div>
     </main>
   );
 }
