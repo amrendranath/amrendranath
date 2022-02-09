@@ -3,12 +3,17 @@
 [![Website][WEBSITE_BADGE]][WEBSITE_URL]
 [![LinkedIn][LINKEDIN_BADGE]][LINKEDIN_URL]
 
-- 🔭 I’m currently working on My Portfolio
-- 🌱 I’m currently learning Python
-- 💬 Ask me about Anime
-- 📫 How to reach me: I will fill this later
-- 😄 Pronouns: He/Him
-<!-- - ⚡ Fun fact:  -->
+I'm a Software Engineer with more experience & focus in the frontend development.
+
+- I enjoy participating in challenging ideas and great teams, gaining new experiences and learn new stuff.
+- 5+ years of software engineering experience.
+- Managed tasks & some product pipelines using Trello and Jira.
+- Very much focused on maintenance & clean code and structure, efficiency, performance & overall quality.
+---
+
+
+
+---
 
 #### 📈 Github Stats
 
