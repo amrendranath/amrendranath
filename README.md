@@ -159,15 +159,24 @@ I'm a Software Engineer with more experience & focus in the frontend development
 
 ---
 
-#### 📈 Github Stats
-
-[![Github Stats][GITHUB_STATS_IMG]][GITHUB_PROFILE_URI]
-[![Top Langs][TOP_LANGS_IMG]][GITHUB_PROFILE_URI]
-
 [GITHUB_PROFILE_URI]: https://github.com/amrendranath
 [GITHUB_STATS_IMG]: https://github-readme-stats.vercel.app/api?username=amrendranath&hide_border=true&show_icons=true&count_private=true&theme=algolia
 [TOP_LANGS_IMG]: https://github-readme-stats.vercel.app/api/top-langs/?username=amrendranath&hide_border=true&theme=algolia&layout=compact
 
+<details>
+    <summary>&#9889 <b>GitHub Stats</b></summary><br/>
+
+[![Github Stats][GITHUB_STATS_IMG]][GITHUB_PROFILE_URI]
+[![Top Langs][TOP_LANGS_IMG]][GITHUB_PROFILE_URI]
+
+</details>
+
+<details>
+    <summary>&#127942 <b>GitHub Awards</b></summary><br/>
+
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=amrendranath)
+
+</details>
 
 [WEBSITE_BADGE]: https://img.shields.io/static/v1?label=Website&logo=google-chrome&style=flat&color=informational&logoColor=white&message=amrendranath.dev
 [WEBSITE_URL]: https://amrendranath.dev
