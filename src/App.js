@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Box, Container, IconButton } from "@mui/material";
 import { LinkedIn, GitHub } from "@mui/icons-material";
-
 import Typed from "typed.js";
 
 function App() {
@@ -22,8 +21,8 @@ function App() {
           I'm <span className="auto-input italic"></span>
         </h1>
         <p className="my-7 font-medium text-2xl">
-          I'm an Indian based front‑end engineer focused on crafting clean & user‑friendly experiences, <br /> I am passionate about
-          building excellent software that improves the lives of those around me.
+          I'm a front‑end engineer focused on crafting clean & user‑friendly experiences, <br /> I am passionate about building excellent
+          software that improves the lives of those around me.
         </p>
         <Box className="flex justify-center">
           <IconButton size="large" color="primary" href="https://github.com/amrendranath">
