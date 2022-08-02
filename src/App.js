@@ -1,4 +1,7 @@
 import { useEffect } from "react";
+import { Box, Container, IconButton } from "@mui/material";
+import { LinkedIn, GitHub } from "@mui/icons-material";
+
 import Typed from "typed.js";
 
 function App() {
@@ -13,26 +16,25 @@ function App() {
   }, []);
 
   return (
-    <main>
-      <div className="bg-gray-900 p-10 h-screen flex justify-center items-start flex-col">
-        <h1 className="text-5xl text-white">Hello 👋</h1>
-        <h1 className="text-5xl text-white pt-20">
-          I'm <span className="auto-input"></span>
+    <Box sx={{ width: "100vw", height: "100vh", backgroundColor: "#111", color: "#fff" }}>
+      <Container sx={{ height: "inherit", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+        <h1 className="text-5xl uppercase font-bold text-[#4169e1]">
+          I'm <span className="auto-input italic"></span>
         </h1>
-        <p className="text-gray-400 mt-5 text-lg">
-          You can reach out to me if you need any help in making <br /> a
-          website for you or your business.
+        <p className="my-7 font-medium text-2xl">
+          I'm an Indian based front‑end engineer focused on crafting clean & user‑friendly experiences, <br /> I am passionate about
+          building excellent software that improves the lives of those around me.
         </p>
-        <p className="font-bold text-white py-5">Have a nice day ahead 😊</p>
-        <a
-          class="p-4 bg-green-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600"
-          href="https://drive.google.com/uc?id=1BSOICLWTYtftJ4f4P8kCIwXqdSoLYxqJ&export=download"
-          download
-        >
-          <i className="lni lni-cloud-download" /> Download CV
-        </a>
-      </div>
-    </main>
+        <Box className="flex justify-center">
+          <IconButton size="large" color="primary" href="https://github.com/amrendranath">
+            <GitHub fontSize="large" />
+          </IconButton>
+          <IconButton size="large" color="primary" href="https://www.linkedin.com/in/amrendranath">
+            <LinkedIn fontSize="large" />
+          </IconButton>
+        </Box>
+      </Container>
+    </Box>
   );
 }
 
