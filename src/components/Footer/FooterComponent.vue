@@ -26,6 +26,9 @@ strong {
 footer {
   display: flex;
   position: absolute;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   padding: 1rem;
   width: 100vw;
@@ -81,6 +84,7 @@ a:hover::after {
 
 @media (min-width: 1024px) {
   footer {
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
