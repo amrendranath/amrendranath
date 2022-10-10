@@ -1,10 +1,16 @@
 <template>
   <footer>
     <p>
-      Built and Designed by <strong><em>Amrendra Nath</em></strong>
+      Built and Designed by
+      <a href="/"
+        ><strong><em>Amrendra Nath</em></strong></a
+      >
     </p>
     <nav>
-      <a href="https://github.com/amrendranath">Github</a>
+      <span class="icon">
+        <i class="fas fa-home"></i>
+      </span>
+      <a href="https://github.com/amrendranath"> Github </a>
       <a href="https://www.linkedin.com/in/amrendranath">LinkedIn</a>
     </nav>
   </footer>
@@ -30,7 +36,7 @@ footer {
   justify-content: center;
   align-items: center;
   bottom: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 100vw;
   border-top: 3px solid;
   border-image-slice: 1;
@@ -42,6 +48,10 @@ footer {
   );
 }
 
+footer p {
+  padding-left: 8px;
+}
+
 nav a {
   margin: 0 1rem;
   font-size: 1rem;
@@ -50,7 +60,7 @@ nav a {
 
 a {
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   display: inline-block;
   position: relative;
   background: -webkit-linear-gradient(

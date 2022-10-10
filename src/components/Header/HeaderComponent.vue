@@ -30,10 +30,10 @@ onMounted(() => {
   <header>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <RouterLink class="navbar-item logo_wrapper" to="/">
+        <div class="navbar-item logo_wrapper">
           <img src="@/assets/an_logo.webp" height="50" />
           <span>Amrendra Nath</span>
-        </RouterLink>
+        </div>
 
         <a
           role="button"
@@ -91,7 +91,7 @@ onMounted(() => {
 header {
   box-shadow: rgb(52 144 214) 0px 5px 20px -10px;
   width: 100vw;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 a {

@@ -1,2 +1,2 @@
 @import "./base.css";
-@import "bulma/css/bulma.css";
+@import "/node_modules/bulma/css/bulma.min.css";
