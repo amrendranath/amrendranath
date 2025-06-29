@@ -1,69 +1,71 @@
-# React + TypeScript + Vite
+# 👋 Hi, I'm Amrendra Nath
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amrendranath-blue?logo=linkedin&style=flat)](https://www.linkedin.com/in/amrendranath)
+[![Portfolio](https://img.shields.io/badge/Website-amrendranath.dev-0A66C2?logo=google-chrome&style=flat)](https://amrendranath.dev)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💼 Software Engineer | Frontend Specialist | Problem-Solver
 
-## Expanding the ESLint configuration
+I'm a dedicated and quality-driven **Software Engineer** with over **7+ years of experience** building intuitive, performant, and maintainable web applications. My expertise lies in **frontend development**, crafting modern interfaces with **React**, **Next.js**, and **TypeScript**, while collaborating across product, design, and engineering teams to deliver impactful digital solutions.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧠 Core Competencies
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- 🧩 Frontend Architecture & Design Systems
+- ⚛️ Modern React Ecosystem (Hooks, Context, Redux, Apollo)
+- 💻 Strong TypeScript Proficiency & Component Abstractions
+- 🔌 RESTful APIs & GraphQL Integration
+- 🚀 Agile Development with CI/CD and Git
+- 📦 Performance Optimization & Clean Code Practices
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠 Tech Toolbox
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Frontend       | Backend / API    | Styling         | Tools & Platform     |
+| -------------- | ---------------- | --------------- | -------------------- |
+| React, Next.js | Node.js, GraphQL | CSS, SASS, MUI  | Git, Jira, Trello    |
+| JavaScript, TS | REST, Apollo     | Tailwind, HTML5 | Slack, Vite, VS Code |
+| Redux, Zustand | MySQL            | Responsive UI   | Postman, GitHub      |
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📜 Certifications
+
+- 🟨 **AWS Certified Cloud Practitioner** – _Amazon Web Services_ (2024)
+
+---
+
+## 📊 GitHub Stats
+
+<details>
+  <summary>View GitHub Insights</summary>
+  <br/>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amrendranath&show_icons=true&theme=algolia&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amrendranath&layout=compact&theme=algolia&hide_border=true)
+
+</details>
+
+<details>
+  <summary>🏆 GitHub Achievements</summary>
+  <br/>
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=amrendranath&theme=algolia&margin-w=5&no-bg=true&no-frame=true)
+
+</details>
+
+---
+
+## 📬 Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/amrendranath)
+- 📧 Email: amrendrasrivastava26@gmail.com
+
+---
+
+> _"I believe the best digital experiences come from clean, scalable code and a user-first mindset."_  
+> — _Amrendra Nath_
