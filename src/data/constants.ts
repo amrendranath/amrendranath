@@ -49,7 +49,7 @@ export const experienceData = [
     id: 1,
     role: "Senior Software Engineer",
     company: "Tech Innovations Inc.",
-    location: "Bangalore, India",
+    location: "New Delhi, India",
     period: "2020 - Present",
     description:
       "Leading development of enterprise SaaS solutions for global clients",

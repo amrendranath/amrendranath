@@ -132,11 +132,13 @@ const Contact = () => {
             <ul className="contact-details">
               <li>
                 <FiMail className="contact-icon" />
-                <a href="mailto:amrendra@example.com">amrendra@example.com</a>
+                <a href="mailto:amrendrasrivastava26@gmail.com">
+                  amrendrasrivastava26@gmail.com
+                </a>
               </li>
               <li>
                 <FiUser className="contact-icon" />
-                <span>Based in Bangalore, India</span>
+                <span>Based in New Delhi, India</span>
               </li>
             </ul>
 
