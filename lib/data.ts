@@ -7,13 +7,14 @@ import {
   SkillCategory,
   AboutData,
   PersonalInfo,
+  Certification,
 } from "./types";
 
 export const personalInfo: PersonalInfo = {
   name: "Amrendra Nath",
-  title: "Senior Software Engineer",
+  title: "Lead Consultant",
   email: "amrendrasrivastava26@gmail.com",
-  location: "New Delhi, India",
+  location: "Noida, Uttar Pradesh, India",
   bio: "Passionate software engineer with 8+ years of experience building scalable web applications. Specialized in JavaScript technologies across the full stack with a focus on creating efficient, maintainable code and exceptional user experiences.",
 };
 
@@ -21,9 +22,10 @@ export const navLinks: NavLink[] = [
   { id: 1, name: "About", url: "#about" },
   { id: 2, name: "Experience", url: "#experience" },
   { id: 3, name: "Education", url: "#education" },
-  { id: 4, name: "Skills", url: "#skills" },
-  { id: 5, name: "Projects", url: "#projects" },
-  { id: 6, name: "Contact", url: "#contact" },
+  { id: 4, name: "Certifications", url: "#certifications" },
+  { id: 5, name: "Skills", url: "#skills" },
+  // { id: 6, name: "Projects", url: "#projects" },
+  { id: 7, name: "Contact", url: "#contact" },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -67,7 +69,7 @@ export const experienceData: Experience[] = [
     location: "Noida, Uttar Pradesh, India",
     period: "13th October 2022 - Present",
     description:
-      "Leading development of enterprise SaaS solutions for global clients",
+      "Leading large-scale React application development with advanced TypeScript and Material UI, mentoring teams, and implementing innovative solutions like MSW for API mocking that reduced development wait time by 83%.",
     responsibilities: [
       "Developed large-scale modular applications with advanced knowledge of React, Typescript, Material UI, JavaScript, and React Testing Library.",
       "Mentored junior developers through code reviews and pair programming sessions",
@@ -92,7 +94,7 @@ export const experienceData: Experience[] = [
     location: "Gurugram, Haryana, India",
     period: "08 August 2022 - 12 October 2022 ",
     description:
-      "Full-stack development of web applications for financial sector",
+      "Spearheaded custom React component development with comprehensive testing strategies, delivering high-performance features that increased user engagement by 25% through close cross-functional collaboration.",
     responsibilities: [
       "Spearheaded the development of custom UI components in React, ensuring the delivery of highperformance web applications.",
       "Enhanced website features, optimizing for performance and user experience.",
@@ -117,7 +119,7 @@ export const experienceData: Experience[] = [
     location: "Gurugram, Haryana, India",
     period: "18 January 2021 - 07 August 2022",
     description:
-      "Full-stack development of web applications for financial sector",
+      "Crafted scalable, reusable React components translating Figma/Zeplin designs into accessible interfaces, while debugging complex issues that improved application performance by 50% and reduced project delivery time by 20%.",
     responsibilities: [
       "Crafted reusable React components, optimizing application architecture for scalability and efficiency.",
       "Successfully translated Figma/Zeplin designs into functional, accessible components, contributing to the visual and functional excellence of the user interface.",
@@ -141,7 +143,8 @@ export const experienceData: Experience[] = [
     company: "Kisan Network",
     location: "Gurugram, Haryana, India",
     period: "21 January 2019 - 16 January 2021",
-    description: "Developed features for customer-facing web applications",
+    description:
+      "Led responsive UI development with ReactJS and collaborated on NodeJS/TypeScript back-end APIs, achieving 30% increase in session duration and 20% boost in customer satisfaction through enhanced usability.",
     responsibilities: [
       "Led the creation of responsive user interfaces using ReactJS, elevating user experience and increasing session duration by 30%",
       "Collaborated on back-end API development using NodeJS and TypeScript, ensuring smooth data flow and integration.",
@@ -165,7 +168,8 @@ export const experienceData: Experience[] = [
     company: "Perennial Lifesciences Pvt. Ltd.",
     location: "Delhi, India",
     period: "12 January 2017 - 20 January 2019",
-    description: "Developed features for customer-facing web applications",
+    description:
+      "Designed engaging landing pages and built a comprehensive CRM system using PHP and MySQL, reducing manual work by 40% and increasing online sales by 10% through optimized e-commerce website management.",
     responsibilities: [
       "Designed and developed captivating landing pages, increasing user engagement and conversion rates by 15%.",
       "Built and maintained a CRM system using core PHP and MySQL, streamlining business operations and reducing manual work by 40%.",
@@ -323,3 +327,17 @@ export const aboutData: AboutData = {
     },
   ],
 };
+
+export const certificationsData: Certification[] = [
+  {
+    id: 1,
+    name: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    date: "December 16, 2024",
+    credentialId: "AWS-CCP-2024",
+    credentialUrl:
+      "https://www.credly.com/badges/692f2eb8-25bd-47d0-b47b-923316c0c1f9/linked_in_profile",
+    description:
+      "Foundational understanding of AWS Cloud concepts, services, and terminology.",
+  },
+];

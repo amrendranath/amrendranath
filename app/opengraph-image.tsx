@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Amrendra Nath - Senior Software Engineer";
+export const alt = "Amrendra Nath - Lead Consultant";
 export const size = {
   width: 1200,
   height: 630,
@@ -39,7 +39,7 @@ export default async function Image() {
             color: "transparent",
           }}
         >
-          Senior Software Engineer
+          Lead Consultant
         </div>
       </div>
     ),

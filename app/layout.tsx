@@ -77,6 +77,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#3b82f6" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=5"
+        />
+      </head>
       <body className="antialiased bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
         <Header />
         <main className="min-h-screen">{children}</main>

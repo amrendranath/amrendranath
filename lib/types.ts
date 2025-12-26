@@ -73,3 +73,14 @@ export interface PersonalInfo {
   location: string;
   bio: string;
 }
+
+export interface Certification {
+  id: number;
+  name: string;
+  issuer: string;
+  date: string;
+  credentialId?: string;
+  credentialUrl?: string;
+  logo?: string;
+  description?: string;
+}
