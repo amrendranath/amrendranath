@@ -96,9 +96,9 @@ const amrendra = {
 
 <div align="center">
 
-  <img width="49%" height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=amrendranath&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img width="49%" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=amrendranath&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  <img width="49%" height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amrendranath&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amrendranath&theme=tokyonight" alt="GitHub Profile Summary" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=amrendranath&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amrendranath&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
