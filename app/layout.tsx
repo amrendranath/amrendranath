@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amrendranath.com"),
+  metadataBase: new URL("https://amrendranath.vercel.app"),
   title: {
     default: `${personalInfo.name} | ${personalInfo.title}`,
     template: `%s | ${personalInfo.name}`,
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://amrendranath.com",
+    url: "https://amrendranath.vercel.app",
     siteName: `${personalInfo.name} Portfolio`,
     title: `${personalInfo.name} | ${personalInfo.title}`,
     description: personalInfo.bio,

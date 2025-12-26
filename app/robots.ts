@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://amrendranath.com/sitemap.xml",
+    sitemap: "https://amrendranath.vercel.app/sitemap.xml",
   };
 }

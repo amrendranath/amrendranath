@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://amrendranath.com";
+  const baseUrl = "https://amrendranath.vercel.app";
 
   return [
     {
